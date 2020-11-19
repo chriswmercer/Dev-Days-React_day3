@@ -1,0 +1,41 @@
+{
+  "resourceType": "Goal",
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p> A goal to do 8000-10000 steps a day</p></div>"
+  },
+  "description": {
+    "text": "weight"
+  },
+  "lifecycleStatus": "active",
+  "target": [
+    {
+      "measure": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "41950-7",
+            "display": "Number of steps in 24 hour Measured"
+          }
+        ]
+      },
+      "detailInter": 10000,
+      "dueDate": "2020-12-25"
+    }
+  ],
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/goal-category",
+          "code": "physiotherapy"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/example",
+    "display": "Abby Smith"
+  },
+  "startDate": "2020-11-16T22:03:17.967Z"
+}

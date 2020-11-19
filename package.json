@@ -1,0 +1,47 @@
+{
+  "name": "fhir-dev-days-react-day3-starting",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "contributors": [
+    "Shane O'Neill <soneill@asymmetrik.com>",
+    "bkaney brian@vermonster.com"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "fhirclient": "^2.3.10",
+    "recharts": "1.8.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-hook-form": "^6.11.0",
+    "react-scripts": "4.0.0",
+    "styled-components": "^5.2.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint  --ext .js --ext .jsx src",
+    "format": "prettier \"**/*.{js,jsx}\" --write",
+    "changelog": "conventional-changelog -p angular -s -i CHANGELOG.md"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
